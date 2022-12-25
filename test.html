@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="items">
+        <div class="items__item1">
+            Minimize code duplication
+            Keeping code DRY and maintainable is one of the biggest challenges in software development, and that applies
+            to
+            CSS as well. In practice, one big
+            component of maintainable code is minimizing the amount of edits necessary to make a change. When values
+            depend
+            on each other, try to reflect their relationship in the code.
+        </div>
+        <div class="items__item2">
+            On Responsive Web Design
+            The common practice is testing a website in multiple resolutions and adding more and more media queries to
+            fix the issues that arise. However, every media query adds overhead to future CSS changes, and they should
+            not be added lightly. Here are a few more tips to avoid needless media queries: Use percentages or
+            viewport-relative units instead of fixed widths. When you want a fixed width for larger resolutions, use
+            max-width, not width. When using multi-column text, specify column-width instead of column-count, so that
+            you get one column only in small resolutions.
+
+        </div>
+        <div class="items__item3">
+            shorthands wisely
+            You could of course try to set all the longhands and call it a day, but then you might forget some. Or the
+            CSS WG might introduce more long- hands in the future, and your code will have failed to reset those. Don’t
+            be afraid of shorthands. It is good defensive coding and future-proofing to use them, unless we
+            intentionally want to use cascaded properties for everything else.
+
+        </div>
+    </div>
+
+</body>
+
+</html>
